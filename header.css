@@ -1,0 +1,73 @@
+.header{
+     background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../Football/image/header.jpg);
+    padding: 20px;
+        background-size: cover;
+    height: 350px;
+}
+.white{
+    color: white;
+}
+.circle {
+    height: 50px;
+    width: 50px;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+    border: solid;
+    border-width: 2px;
+}
+.circle.overlap {
+    margin-left: -9px;
+    position: relative;
+    z-index: 0;
+}
+img.header_logo {
+    /* display: flex;
+    padding: 7px; */
+    height: 100%;
+}
+.top_left {
+    display: flex;
+}
+.top_right {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 48rem;
+    top: 0rem;
+}
+.bottom_left {
+    position: absolute;
+    top: 10rem;
+}
+/* .box.same_white {
+    background: white;
+    margin: 5px;
+    width: 4rem;
+    padding: 6px 0px 6px 13px;
+    border-radius: 15%;
+} */
+.box.same_white {
+    background: white;
+    margin: 5px;
+    width: 50px;
+    padding: 2px 0px 2px 5px;
+    border-radius: 15%;
+}
+.allign_it {
+    display: flex;
+}
+.box.transparent {
+    background: transparent;
+    margin: 6px;
+    /* padding: 4px 6px 0px 6px; */
+    border-radius: 15%;
+    border: solid #f6f6f4;
+    border-width: thin;
+}
+.yellow{
+    color: #fbd316;
+}

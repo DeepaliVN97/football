@@ -1,0 +1,65 @@
+/* Second column */
+
+.secondcol {
+    display: block;
+    float: left;
+    background-color: #f6f6f4;
+}
+.mini_menu {
+    color: #dbdbd9;
+    /* margin: 0px 0px 10px 150px; */
+    right: 150px;
+    display: block;
+    font-weight: 700;
+}
+li.nav-item {
+    padding: 0px 15px 0px 15px;
+}
+.content_right {
+    margin: 0px 0px 10px 80px;
+}
+.grey_light {
+    color: #dbdbd9;
+}
+.arrows {
+    position: absolute;
+    right: 1rem;
+    color: #dbdbd9;
+}
+/* play now */
+
+.quick_score {
+    padding: 6px 3px 6px 3px;
+    margin: 0px 10px 15px 10px;
+    background: white;
+    border-radius: 50px;
+}
+img.quick_score_logo {
+    height: 35px;
+    padding: 10px;
+}
+.map_round{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+small.arrow {
+    position: absolute;
+    right: 1rem;
+     color: #dbdbd9;
+}
+img.star {
+    width: 16px;
+}
+.league_logo {
+    width: 3rem;
+    height: 3rem;
+    object-fit: contain;
+    margin-right: 20px;
+}
+.d_flex {
+    display: flex;
+    padding: 10px 0px 10px 0px;
+}

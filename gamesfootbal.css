@@ -1,0 +1,23 @@
+li.nav-item.filter>i.fa.fa-sliders {
+    padding-top: 10px;
+}
+img.minilogo_md {
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.match_details {
+    display: flex;
+    flex-direction: row;
+}
+.mini_md {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: white;
+    text-align: center;
+}
+
+/* .d_flex.matchfull  :nth-child(odd){
+    background: white;
+} */
